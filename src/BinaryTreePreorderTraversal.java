@@ -10,12 +10,20 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 
 */
 
+/* Analysis
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+ */
+
 import common.TreeNode;
 import java.util.Stack;
 import java.util.List;
 import java.util.LinkedList;
 
 public class BinaryTreePreorderTraversal {
+    // Iterative Solution:
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new LinkedList<>();
         if (root == null) return res;
@@ -28,5 +36,19 @@ public class BinaryTreePreorderTraversal {
             if (node.left != null) st.push(node.left);
         }
         return res;
+    }
+
+    // Recursive Solution:
+    public List<Integer> preorderRecursiveTraversal(TreeNode root) {
+        List<Integer> res = new LinkedList<>();
+        preHelper(root, res);
+        return res;
+    }
+
+    public void preHelper(TreeNode root, List<Integer> res) {
+        if (root == null) return;
+        res.add(root.val);
+        preHelper(root.left, res);
+        preHelper(root.right, res);
     }
 }
