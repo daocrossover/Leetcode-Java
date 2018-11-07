@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f11ff648-5bcf-456b-ab06-c6839d81c9ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binary_search/FindPeakElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTreeInorderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreePostorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTreePostorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreePreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTreePreorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindMinimuminRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search/FindMinimuminRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FindMinimuminRotatedSortedArrayII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search/FindMinimuminRotatedSortedArrayII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntersectionofTwoLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/two_pointers/IntersectionofTwoLinkedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/BinaryTreePostorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTreePostorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/BinaryTreePreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTreePreorderTraversal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,26 +27,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="36" />
+          <entry key="java" value="54" />
           <entry key="md" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="36" />
+          <entry key="JAVA" value="54" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="979" />
+          <entry key="java" value="1044" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="979" />
+          <entry key="JAVA" value="1044" />
           <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
@@ -59,12 +55,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreePreorderTraversal.java">
+        <entry file="file://$PROJECT_DIR$/src/stack/MinStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="171">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,6 +102,8 @@
         <option value="$PROJECT_DIR$/src/two_pointers/IntersectionofTwoLinkedLists.java" />
         <option value="$PROJECT_DIR$/src/tree/BinaryTreePostorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/tree/BinaryTreePreorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/tree/BinaryTreeInorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/stack/MinStack.java" />
       </list>
     </option>
   </component>
@@ -128,6 +129,19 @@
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
+              <item name="MinStack.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -138,7 +152,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dao/Java/README.md&#10;git&#9;ACTION&#9;Github.Share" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541550077807" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541551429584" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -243,20 +257,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReverseWordsinaString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#998#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binary_search/FindPeakElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binary_search/FindMinimuminRotatedSortedArrayII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -267,17 +285,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/binary_search/FindPeakElement.java">
+    <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreePostorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="291">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/binary_search/FindMinimuminRotatedSortedArrayII.java">
+    <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreeInorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="760">
+          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreePreorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/two_pointers/IntersectionofTwoLinkedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -291,43 +332,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SortList.java">
+    <entry file="file://$PROJECT_DIR$/src/ReverseWordsinaString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state>
+          <folding>
+            <element signature="e#0#1020#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/two_pointers/IntersectionofTwoLinkedLists.java">
+    <entry file="file://$PROJECT_DIR$/src/SortList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="323">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#1314#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stack/MinStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreePostorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/BinaryTreePreorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
           </folding>
         </state>
       </provider>
