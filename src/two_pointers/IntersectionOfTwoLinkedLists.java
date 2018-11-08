@@ -28,7 +28,7 @@ Time Complexity: O(m+n), Space Complexity: O(1)
 
 import common.ListNode;
 
-public class IntersectionofTwoLinkedLists {
+public class IntersectionOfTwoLinkedLists {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         // boundary check
         if(headA == null || headB == null) return null;
