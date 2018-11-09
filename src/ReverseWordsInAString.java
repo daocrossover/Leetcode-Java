@@ -13,7 +13,7 @@ However, your reversed string should not contain leading or trailing spaces.
 3. You need to reduce multiple spaces between two words to a single space in the reversed string.
  */
 
-public class ReverseWordsinaString {
+public class ReverseWordsInAString {
     // Using split():
     public String reverseWords(String s) {
         if (s.length() == 0 || s == null) {
