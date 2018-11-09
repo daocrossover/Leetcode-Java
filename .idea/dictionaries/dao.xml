@@ -2,6 +2,7 @@
   <dictionary name="dao">
     <words>
       <w>nums</w>
+      <w>subarray</w>
     </words>
   </dictionary>
 </component>
