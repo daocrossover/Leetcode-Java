@@ -1,4 +1,4 @@
-package hash_set;
+package hash_table;
 
 /* 202. Happy Number
 Description:

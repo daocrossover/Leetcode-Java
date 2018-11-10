@@ -1,4 +1,4 @@
-package hash_set;
+package hash_table;
 
 /* 217. Contains Duplicate
 Description:
