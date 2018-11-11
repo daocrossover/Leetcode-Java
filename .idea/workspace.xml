@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f11ff648-5bcf-456b-ab06-c6839d81c9ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/binary_search/HIndexII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bit_manipulation/MissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hash_table/HIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binary_search/FirstBadVersion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/History.md" afterDir="false" />
     </list>
@@ -31,7 +29,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="189" />
+          <entry key="java" value="191" />
           <entry key="md" value="7" />
           <entry key="name" value="1" />
           <entry key="xml" value="2" />
@@ -41,7 +39,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="189" />
+          <entry key="JAVA" value="191" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="2" />
@@ -50,15 +48,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="6065" />
-          <entry key="md" value="434" />
+          <entry key="java" value="6177" />
+          <entry key="md" value="440" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6065" />
-          <entry key="Markdown" value="434" />
+          <entry key="JAVA" value="6177" />
+          <entry key="Markdown" value="440" />
           <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
@@ -93,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MajorityElement.java" />
         <option value="$PROJECT_DIR$/src/ExcelSheetColumnNumber.java" />
         <option value="$PROJECT_DIR$/src/tree/BinaryTreeInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/stack/BinarySearchTreeIterator.java" />
@@ -143,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/bit_manipulation/MissingNumber.java" />
         <option value="$PROJECT_DIR$/src/hash_table/HIndex.java" />
         <option value="$PROJECT_DIR$/src/binary_search/HIndexII.java" />
+        <option value="$PROJECT_DIR$/src/binary_search/FirstBadVersion.java" />
         <option value="$PROJECT_DIR$/History.md" />
       </list>
     </option>
@@ -175,7 +173,7 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="binary_search" type="462c0819:PsiDirectoryNode" />
+              <item name="bit_manipulation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,7 +183,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dao/Java/README.md&#10;git&#9;ACTION&#9;Github.Share" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541906009573" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541915322546" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -284,13 +282,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="11.6" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bit_manipulation/NumberOf1Bits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hash_table/FractiontoRecurringDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -607,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bit_manipulation/MissingNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1558">
-          <caret line="82" column="1" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hash_table/HIndex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -625,6 +609,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bit_manipulation/MissingNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="82" column="1" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binary_search/FirstBadVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
         </state>
       </provider>
     </entry>
