@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f11ff648-5bcf-456b-ab06-c6839d81c9ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stack/RemoveDuplicateLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bit_manipulation/PowerOfFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/math/BulbSwitcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/math/PowerOfThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bit_manipulation/PowerOfTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bit_manipulation/PowerOfTwo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,19 +20,19 @@
     <session id="-549305189">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="4" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="213" />
+          <entry key="java" value="220" />
           <entry key="md" value="8" />
           <entry key="name" value="1" />
           <entry key="xml" value="2" />
@@ -39,7 +42,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="213" />
+          <entry key="JAVA" value="220" />
           <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="2" />
@@ -48,15 +51,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="7364" />
-          <entry key="md" value="512" />
+          <entry key="java" value="7665" />
+          <entry key="md" value="529" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7364" />
-          <entry key="Markdown" value="512" />
+          <entry key="JAVA" value="7665" />
+          <entry key="Markdown" value="529" />
           <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
@@ -68,8 +71,8 @@
         <entry file="file://$PROJECT_DIR$/History.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="557">
-                <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+              <first_editor relative-caret-position="507">
+                <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -91,9 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/bit_manipulation/BitwiseANDOfNumbersRange.java" />
-        <option value="$PROJECT_DIR$/src/hash_set/HappyNumber.java" />
-        <option value="$PROJECT_DIR$/src/linked_list/RemoveLinkedListElements.java" />
         <option value="$PROJECT_DIR$/src/math/CountPrimes.java" />
         <option value="$PROJECT_DIR$/src/math/FactorialTrailingZeroes.java" />
         <option value="$PROJECT_DIR$/src/hash_table/IsomorphicStrings.java" />
@@ -108,7 +108,6 @@
         <option value="$PROJECT_DIR$/src/stack/ImplementStackUsingQueues.java" />
         <option value="$PROJECT_DIR$/src/array/SummaryRanges.java" />
         <option value="$PROJECT_DIR$/src/tree/KthSmallestElementInABST.java" />
-        <option value="$PROJECT_DIR$/src/bit_manipulation/PowerOfTwo.java" />
         <option value="$PROJECT_DIR$/src/stack/ImplementQueueUsingStacks.java" />
         <option value="$PROJECT_DIR$/src/linked_list/PalindromeLinkedList.java" />
         <option value="$PROJECT_DIR$/src/linked_list/ReverseLinkedList.java" />
@@ -141,6 +140,10 @@
         <option value="$PROJECT_DIR$/src/math/SuperUglyNumber.java" />
         <option value="$PROJECT_DIR$/src/stack/RemoveDuplicateLetters.java" />
         <option value="$PROJECT_DIR$/src/bit_manipulation/MaximumProductOfWordLengths.java" />
+        <option value="$PROJECT_DIR$/src/math/BulbSwitcher.java" />
+        <option value="$PROJECT_DIR$/src/math/PowerOfThree.java" />
+        <option value="$PROJECT_DIR$/src/bit_manipulation/PowerOfTwo.java" />
+        <option value="$PROJECT_DIR$/src/bit_manipulation/PowerOfFour.java" />
         <option value="$PROJECT_DIR$/History.md" />
       </list>
     </option>
@@ -155,6 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,13 +181,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dao/Java/README.md&#10;git&#9;ACTION&#9;Github.Share" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542046035856" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542067221983" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -246,7 +249,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2722833" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2753358" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -260,8 +263,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.491453" visible="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.508547" side_tool="true" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4908425" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50915754" side_tool="true" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -282,32 +285,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="11.6" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/heap/KthLargestElementInAnArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="89" selection-start-line="89" selection-end-line="99" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sorting/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Leetcode/sorting/QuickSort.class" />
     <entry file="file://$PROJECT_DIR$/src/tree/InvertBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bit_manipulation/PowerOfTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -631,11 +612,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/math/BulbSwitcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/math/PowerOfThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bit_manipulation/PowerOfTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bit_manipulation/PowerOfFour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/History.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="557">
-            <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <first_editor relative-caret-position="507">
+            <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>

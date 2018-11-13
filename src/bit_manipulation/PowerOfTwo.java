@@ -23,12 +23,22 @@ public class PowerOfTwo {
     // n = 2 ^ 3 = 8 = 0b0000...00001000, and (n - 1) = 7 = 0b0000...0111.
     // we have n & (n-1) == 0b0000...0000 == 0
     // Otherwise, n & (n-1) != 0.
+    // Time Complexity: O(1)
     public boolean isPowerOfTwo1(int n) {
         return n > 0 && ((n & (n-1)) == 0);
     }
 
     // Solution3: Bit count
+    // Time Complexity: O(1)
     public boolean isPowerOfTwo2(int n) {
         return n > 0 && Integer.bitCount(n) == 1;
+    }
+
+    // Solution4: Math
+    // Because the range of an integer: -2147483648 (-2^31) ~ 2147483647 (2^31-1),
+    // the max possible power of two = 2^30 = 1073741824.
+    // Time Complexity: O(1)
+    public boolean isPowerOfTwo3(int n) {
+        return n > 0 && (1073741824 % n == 0);
     }
 }
