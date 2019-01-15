@@ -26,15 +26,8 @@ Explanation: You don't need to remove any of the intervals
 since they're already non-overlapping.
  */
 
+import common.Interval;
 import java.util.Arrays;
-
-// Definition for an interval.
-class Interval {
-    int start;
-    int end;
-    Interval() { start = 0; end = 0; }
-    Interval(int s, int e) { start = s; end = e; }
-}
 
 public class NonOverlappingIntervals {
     // Solution1: Greedy Solution(sorting with the end)
