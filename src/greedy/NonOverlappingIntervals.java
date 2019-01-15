@@ -52,4 +52,27 @@ public class NonOverlappingIntervals {
         }
         return intervals.length - count;
     }
+
+    // Solution2: Greedy Solution(sorting with the start)
+    // Time Complexity: O(n log n)
+    public int eraseOverlapIntervals1(Interval[] intervals) {
+        if (intervals.length <= 1)  return 0;
+        Arrays.sort(intervals, (a, b) -> a.start - b.start);
+        Interval prev = intervals[0];
+        int count = 0;
+        for (int i = 1; i < intervals.length; ++i) {
+            Interval cur = intervals[i];
+            if (cur.start < prev.end) {
+                count++;
+                // find the minimum number of interval we need to remove
+                // we choose to remove the interval which has the larger end
+                if (cur.end < prev.end) {
+                    prev = cur;
+                }
+            } else {
+                prev = cur;
+            }
+        }
+        return count;
+    }
 }
