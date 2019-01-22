@@ -1,6 +1,6 @@
-package String;
+package string;
 
-/* 434. Number of Segments in a String
+/* 434. Number of Segments in a string
 Description:
 Count the number of segments in a string,
 where a segment is defined to be a contiguous sequence of non-space characters.
@@ -28,7 +28,7 @@ public class NumberOfSegmentsInAString {
     // Solution2: Using Built-in Method
     // Time Complexity: O(n), Space Complexity: O(n)
     // Note:
-    // String[] tokens = "".split("\\s++");
+    // string[] tokens = "".split("\\s++");
     // tokens.length; // 1
     // tokens[0]; // ""
     // 1. one or more leading spaces will cause split to deduce an erroneous "" token at the beginning of the string,

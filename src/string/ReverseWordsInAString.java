@@ -1,4 +1,6 @@
-/* 151. Reverse Words in a String
+package string;
+
+/* 151. Reverse Words in a string
 Description:
 Given an input string, reverse the string word by word.
 

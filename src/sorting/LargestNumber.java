@@ -33,7 +33,7 @@ public class LargestNumber {
         if (nums == null || nums.length == 0) {
             return "";
         }
-        // Convert int array to String array, so we can sort later on
+        // Convert int array to string array, so we can sort later on
         String[] numStrings = new String[nums.length];
         for (int i = 0; i < nums.length; ++i) {
             numStrings[i] = String.valueOf(nums[i]);
