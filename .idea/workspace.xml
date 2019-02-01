@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f11ff648-5bcf-456b-ab06-c6839d81c9ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/RelativeRanks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/Base7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/PerfectNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/MostFrequentSubtreeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/FindModeInBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/FindModeInBinarySearchTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +44,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/bfs/MinimumGeneticMutation.java" />
         <option value="$PROJECT_DIR$/src/greedy/NonOverlappingIntervals.java" />
         <option value="$PROJECT_DIR$/src/common/Interval.java" />
         <option value="$PROJECT_DIR$/src/binary_search/FindRightInterval.java" />
@@ -90,11 +88,12 @@
         <option value="$PROJECT_DIR$/src/stack/NextGreaterElementI.java" />
         <option value="$PROJECT_DIR$/src/array/DiagonalTraverse.java" />
         <option value="$PROJECT_DIR$/src/hash_table/KeyboardRow.java" />
-        <option value="$PROJECT_DIR$/src/tree/FindModeInBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/stack/NextGreaterElementII.java" />
         <option value="$PROJECT_DIR$/src/math/Base7.java" />
         <option value="$PROJECT_DIR$/src/array/RelativeRanks.java" />
         <option value="$PROJECT_DIR$/src/math/PerfectNumber.java" />
+        <option value="$PROJECT_DIR$/src/tree/MostFrequentSubtreeSum.java" />
+        <option value="$PROJECT_DIR$/src/tree/FindModeInBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/History.md" />
       </list>
     </option>
@@ -126,7 +125,7 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,7 +137,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dao/Java/README.md&#10;git&#9;ACTION&#9;Github.Share" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549045285272" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549047732923" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -236,16 +235,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="11.6" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/linked_list/AddTwoNumbersII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/linked_list/FlattenAMultilevelDoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -578,16 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/FindModeInBinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stack/NextGreaterElementII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
@@ -619,6 +598,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/FindModeInBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="58" column="31" lean-forward="true" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/MostFrequentSubtreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -40,7 +40,7 @@ public class FindModeInBinarySearchTree {
             return new int[]{};
         }
         this.map = new HashMap<>();
-        inorder(root);
+        inOrder(root);
         List<Integer> list = new LinkedList<>();
         for (int key : map.keySet()) {
             if (map.get(key) == max) {
@@ -54,14 +54,14 @@ public class FindModeInBinarySearchTree {
         return res;
     }
 
-    private void inorder(TreeNode root) {
+    private void inOrder(TreeNode root) {
         if (root.left != null) {
-            inorder(root.left);
+            inOrder(root.left);
         }
         map.put(root.val, map.getOrDefault(root.val, 0) + 1);
         max = Math.max(max, map.get(root.val));
         if (root.right != null) {
-            inorder(root.right);
+            inOrder(root.right);
         }
     }
 }
