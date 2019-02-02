@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f11ff648-5bcf-456b-ab06-c6839d81c9ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dynamic_programming/FibonacciNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/FindBottomLeftTreeValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/DetectCapital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/FindLargestValueInEachTreeRow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/History.md" afterDir="false" />
     </list>
@@ -20,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/History.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="816">
+              <first_editor relative-caret-position="493">
                 <caret line="156" column="13" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
               </first_editor>
               <second_editor />
@@ -44,8 +44,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/binary_search/FindRightInterval.java" />
-        <option value="$PROJECT_DIR$/src/math/ArrangingCoins.java" />
         <option value="$PROJECT_DIR$/src/array/FindAllDuplicatesInAnArray.java" />
         <option value="$PROJECT_DIR$/src/linked_list/AddTwoNumbersII.java" />
         <option value="$PROJECT_DIR$/src/hash_table/NumberOfBoomerangs.java" />
@@ -94,6 +92,8 @@
         <option value="$PROJECT_DIR$/src/tree/FindModeInBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/dynamic_programming/FibonacciNumber.java" />
         <option value="$PROJECT_DIR$/src/tree/FindBottomLeftTreeValue.java" />
+        <option value="$PROJECT_DIR$/src/tree/FindLargestValueInEachTreeRow.java" />
+        <option value="$PROJECT_DIR$/src/string/DetectCapital.java" />
         <option value="$PROJECT_DIR$/History.md" />
       </list>
     </option>
@@ -124,7 +124,7 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -137,7 +137,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dao/Java/README.md&#10;git&#9;ACTION&#9;Github.Share" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549126557017" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549128865651" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -215,7 +215,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.46459097" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.46459097" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.53540903" side_tool="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32959184" />
@@ -264,24 +264,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="11.6" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/array/FindAllNumbersDisappearedInAnArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#603#612#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tree/DeleteNodeInABST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/heap/SortCharactersByFrequency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1235">
@@ -642,7 +624,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/FindBottomLeftTreeValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
+        <state relative-caret-position="870">
           <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -650,10 +632,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/FindLargestValueInEachTreeRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="43" lean-forward="true" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/DetectCapital.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/History.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="816">
+          <first_editor relative-caret-position="493">
             <caret line="156" column="13" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
           </first_editor>
           <second_editor />
