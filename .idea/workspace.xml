@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f11ff648-5bcf-456b-ab06-c6839d81c9ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tree/MostFrequentSubtreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic_programming/FibonacciNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/FindBottomLeftTreeValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/History.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/FindModeInBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/FindModeInBinarySearchTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/History.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="493">
-                <caret line="151" column="13" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
+              <first_editor relative-caret-position="816">
+                <caret line="156" column="13" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -44,8 +44,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/greedy/NonOverlappingIntervals.java" />
-        <option value="$PROJECT_DIR$/src/common/Interval.java" />
         <option value="$PROJECT_DIR$/src/binary_search/FindRightInterval.java" />
         <option value="$PROJECT_DIR$/src/math/ArrangingCoins.java" />
         <option value="$PROJECT_DIR$/src/array/FindAllDuplicatesInAnArray.java" />
@@ -94,6 +92,8 @@
         <option value="$PROJECT_DIR$/src/math/PerfectNumber.java" />
         <option value="$PROJECT_DIR$/src/tree/MostFrequentSubtreeSum.java" />
         <option value="$PROJECT_DIR$/src/tree/FindModeInBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/dynamic_programming/FibonacciNumber.java" />
+        <option value="$PROJECT_DIR$/src/tree/FindBottomLeftTreeValue.java" />
         <option value="$PROJECT_DIR$/History.md" />
       </list>
     </option>
@@ -108,7 +108,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,12 +131,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dao/Java/README.md&#10;git&#9;ACTION&#9;Github.Share" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549047732923" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549126557017" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -201,7 +201,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.44200245" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.44749695" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -215,8 +215,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.46520147" visible="true" weight="0.32959184" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.53479856" side_tool="true" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.46459097" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.53540903" side_tool="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -229,29 +229,41 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Maven" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.44749695" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993895" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.32959184" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.46459097" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.53540903" side_tool="true" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32959184" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11.6" />
     <option name="LAST_COMMIT_MESSAGE" value="11.6" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/linked_list/FlattenAMultilevelDoublyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="88" column="7" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hash_table/NumberOfBoomerangs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/array/FindAllNumbersDisappearedInAnArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -621,11 +633,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamic_programming/FibonacciNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/FindBottomLeftTreeValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/History.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="493">
-            <caret line="151" column="13" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
+          <first_editor relative-caret-position="816">
+            <caret line="156" column="13" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
