@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f11ff648-5bcf-456b-ab06-c6839d81c9ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hash_table/KDiffPairsInAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dfs/Minesweeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/math/ComplexNumberMultiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/ConvertBSTToGreaterTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/History.md" afterDir="false" />
     </list>
@@ -14,13 +16,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/History.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="550">
-                <caret line="167" column="13" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
+              <first_editor relative-caret-position="493">
+                <caret line="172" column="13" selection-start-line="172" selection-start-column="13" selection-end-line="172" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -43,9 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/hash_table/FourSumII.java" />
-        <option value="$PROJECT_DIR$/src/greedy/AssignCookies.java" />
-        <option value="$PROJECT_DIR$/src/stack/OneThreeTwoPattern.java" />
         <option value="$PROJECT_DIR$/src/two_pointers/CircularArrayLoop.java" />
         <option value="$PROJECT_DIR$/src/math/PoorPigs.java" />
         <option value="$PROJECT_DIR$/src/string/RepeatedSubstringPattern.java" />
@@ -93,7 +92,10 @@
         <option value="$PROJECT_DIR$/src/backtracking/BeautifulArrangement.java" />
         <option value="$PROJECT_DIR$/src/tree/MinimumAbsoluteDifferenceInBST.java" />
         <option value="$PROJECT_DIR$/src/hash_table/KDiffPairsInAnArray.java" />
+        <option value="$PROJECT_DIR$/src/dfs/Minesweeper.java" />
+        <option value="$PROJECT_DIR$/src/math/ComplexNumberMultiplication.java" />
         <option value="$PROJECT_DIR$/History.md" />
+        <option value="$PROJECT_DIR$/src/tree/ConvertBSTToGreaterTree.java" />
       </list>
     </option>
   </component>
@@ -107,7 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,19 +125,20 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hash_table" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dao/Java/README.md&#10;git&#9;ACTION&#9;Github.Share" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549784486368" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549840799598" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -200,7 +202,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35653237" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36080587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -263,30 +265,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="11.6" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/math/PoorPigs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/ReverseWordsInAString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/two_pointers/ReverseVowelsOfAString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/two_pointers/ReverseString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -663,11 +641,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dfs/Minesweeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/math/ComplexNumberMultiplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/ConvertBSTToGreaterTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/History.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="550">
-            <caret line="167" column="13" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
+          <first_editor relative-caret-position="493">
+            <caret line="172" column="13" selection-start-line="172" selection-start-column="13" selection-end-line="172" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
