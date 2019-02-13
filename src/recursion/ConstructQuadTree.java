@@ -22,26 +22,7 @@ If you want to know more about the quad tree, you can refer to its wiki.
  */
 
 
-// Definition for a QuadTree node.
-class Node {
-    public boolean val;
-    public boolean isLeaf;
-    public Node topLeft;
-    public Node topRight;
-    public Node bottomLeft;
-    public Node bottomRight;
-
-    public Node() {}
-
-    public Node(boolean _val,boolean _isLeaf,Node _topLeft,Node _topRight,Node _bottomLeft,Node _bottomRight) {
-        val = _val;
-        isLeaf = _isLeaf;
-        topLeft = _topLeft;
-        topRight = _topRight;
-        bottomLeft = _bottomLeft;
-        bottomRight = _bottomRight;
-    }
-}
+import common.Node;
 
 public class ConstructQuadTree {
     public Node construct(int[][] grid) {
