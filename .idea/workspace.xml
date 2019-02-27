@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f11ff648-5bcf-456b-ab06-c6839d81c9ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dynamic_programming/ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_programming/MinimumPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_programming/UniquePathsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic_programming/EditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/two_pointers/MinimumWindowSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/two_pointers/SortColors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/History.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_programming/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_programming/UniquePaths.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,19 +21,10 @@
         <entry file="file://$PROJECT_DIR$/History.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="519">
-                <caret line="239" column="13" selection-start-line="239" selection-start-column="13" selection-end-line="239" selection-end-column="13" />
+              <first_editor relative-caret-position="291">
+                <caret line="227" column="2" lean-forward="true" selection-start-line="227" selection-start-column="2" selection-end-line="227" selection-end-column="2" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dynamic_programming/ClimbingStairs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -55,9 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tree/DiameterOfBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/string/StudentAttendanceRecordI.java" />
-        <option value="$PROJECT_DIR$/src/dynamic_programming/StudentAttendanceRecordII.java" />
         <option value="$PROJECT_DIR$/src/common/UnionFind.java" />
         <option value="$PROJECT_DIR$/src/dfs/FriendCircles.java" />
         <option value="$PROJECT_DIR$/src/math/OptimalDivision.java" />
@@ -105,6 +92,9 @@
         <option value="$PROJECT_DIR$/src/dynamic_programming/UniquePathsII.java" />
         <option value="$PROJECT_DIR$/src/dynamic_programming/MinimumPathSum.java" />
         <option value="$PROJECT_DIR$/src/dynamic_programming/ClimbingStairs.java" />
+        <option value="$PROJECT_DIR$/src/dynamic_programming/EditDistance.java" />
+        <option value="$PROJECT_DIR$/src/two_pointers/SortColors.java" />
+        <option value="$PROJECT_DIR$/src/two_pointers/MinimumWindowSubstring.java" />
         <option value="$PROJECT_DIR$/History.md" />
       </list>
     </option>
@@ -119,6 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,20 +126,19 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic_programming" type="462c0819:PsiDirectoryNode" />
+              <item name="two_pointers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dao/Java/README.md&#10;git&#9;ACTION&#9;Github.Share" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551202026016" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551288763951" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -212,7 +202,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2893773" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2930403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -275,30 +265,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="11.6" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dfs/FriendCircles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1349">
-          <caret line="71" column="27" lean-forward="true" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/math/OptimalDivision.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hash_table/BrickWall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stack/NextGreaterElementI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -671,11 +637,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamic_programming/EditDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/two_pointers/SortColors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/two_pointers/MinimumWindowSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="86" selection-start-line="46" selection-start-column="86" selection-end-line="46" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/History.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="519">
-            <caret line="239" column="13" selection-start-line="239" selection-start-column="13" selection-end-line="239" selection-end-column="13" />
+          <first_editor relative-caret-position="291">
+            <caret line="227" column="2" lean-forward="true" selection-start-line="227" selection-start-column="2" selection-end-line="227" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
