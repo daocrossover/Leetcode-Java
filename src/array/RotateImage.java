@@ -42,18 +42,29 @@ rotate the input matrix in-place such that it becomes:
 ]
  */
 
+/*
+ * clockwise
+ * first swap the symmetry, then reverse each row
+ * 1 2 3     1 4 7     7 4 1
+ * 4 5 6  => 2 5 8  => 8 5 2
+ * 7 8 9     3 6 9     9 6 3
+ */
+
+/*
+ * anticlockwise rotate
+ * first swap the symmetry, then reverse each column
+ * 1 2 3     1 4 7     3 6 9
+ * 4 5 6  => 2 5 8  => 2 5 8
+ * 7 8 9     3 6 9     1 4 7
+ */
+
 public class RotateImage {
     public void rotate(int[][] matrix) {
         if (matrix == null || matrix[0] == null) {
             return;
         }
-        /*
-         * first swap the symmetry, then reverse each row
-         * 1 2 3     1 4 7     7 4 1
-         * 4 5 6  => 2 5 8  => 8 5 2
-         * 7 8 9     3 6 9     9 6 3
-         */
         int m = matrix.length, n = matrix[0].length;
+        // swap the symmetry
         for (int i = 0; i < m; ++i) {
             for (int j = i + 1; j < n; ++j) {
                 int tmp = matrix[i][j];
@@ -62,14 +73,20 @@ public class RotateImage {
             }
         }
         for (int i = 0; i < m; ++i) {
-            int start = 0, end = n - 1;
-            while (start < end) {
-                int tmp = matrix[i][start];
-                matrix[i][start] = matrix[i][end];
-                matrix[i][end] = tmp;
-                start++;
-                end--;
+            for (int j = 0; j < n / 2; ++j) {
+                int tmp = matrix[i][j];
+                matrix[i][j] = matrix[i][n-1-j];
+                matrix[i][n-1-j] = tmp;
             }
         }
+        /* anticlockwise rotate
+        for (int i = 0; i < m / 2; ++i) {
+            for (int j = 0; j < n; ++j) {
+                int tmp = matrix[i][j];
+                matrix[i][j] = matrix[m-1-i][j];
+                matrix[i][m-1-j] = tmp;
+            }
+        }
+        */
     }
 }
