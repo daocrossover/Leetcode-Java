@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f11ff648-5bcf-456b-ab06-c6839d81c9ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/design/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hash_table/PrisonCellsAfterNDays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_list/InsertIntoACyclicSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_list/LinkedListCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_list/LinkedListCycleII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binary_search/SearchA2DMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamic_programming/ArithmeticSlices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/History.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/RotateImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/RotateImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamic_programming/MinimumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_programming/MinimumPathSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +21,8 @@
         <entry file="file://$PROJECT_DIR$/History.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="48">
-                <caret line="236" column="12" lean-forward="true" selection-start-line="236" selection-start-column="12" selection-end-line="236" selection-end-column="12" />
+              <first_editor relative-caret-position="598">
+                <caret line="265" column="13" selection-start-line="265" selection-start-column="13" selection-end-line="265" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -48,8 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tree/SubtreeOfAnotherTree.java" />
-        <option value="$PROJECT_DIR$/src/hash_table/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/linked_list/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/two_pointers/LongestSubstringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/src/dynamic_programming/LongestPalindromicSubstring.java" />
@@ -77,7 +72,6 @@
         <option value="$PROJECT_DIR$/src/sorting/MergeIntervals.java" />
         <option value="$PROJECT_DIR$/src/dynamic_programming/UniquePaths.java" />
         <option value="$PROJECT_DIR$/src/dynamic_programming/UniquePathsII.java" />
-        <option value="$PROJECT_DIR$/src/dynamic_programming/MinimumPathSum.java" />
         <option value="$PROJECT_DIR$/src/dynamic_programming/ClimbingStairs.java" />
         <option value="$PROJECT_DIR$/src/dynamic_programming/EditDistance.java" />
         <option value="$PROJECT_DIR$/src/two_pointers/SortColors.java" />
@@ -98,11 +92,14 @@
         <option value="$PROJECT_DIR$/src/linked_list/LinkedListCycle.java" />
         <option value="$PROJECT_DIR$/src/linked_list/LinkedListCycleII.java" />
         <option value="$PROJECT_DIR$/src/hash_table/PrisonCellsAfterNDays.java" />
+        <option value="$PROJECT_DIR$/src/dynamic_programming/ArithmeticSlices.java" />
+        <option value="$PROJECT_DIR$/src/dynamic_programming/MinimumPathSum.java" />
+        <option value="$PROJECT_DIR$/src/binary_search/SearchA2DMatrix.java" />
         <option value="$PROJECT_DIR$/History.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -130,7 +127,7 @@
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hash_table" type="462c0819:PsiDirectoryNode" />
+              <item name="binary_search" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -141,7 +138,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dao/Java/README.md&#10;git&#9;ACTION&#9;Github.Share" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551642371291" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551663058518" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -217,7 +214,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31501833" />
@@ -283,27 +280,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="11.6" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/linked_list/SwapNodesInPairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/NextPermutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/binary_search/SearchInRotatedSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1463">
-          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/binary_search/FindFirstAndLastPositionOfElementInSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-70">
@@ -387,13 +363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1235">
           <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamic_programming/MinimumPathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -667,11 +636,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamic_programming/ArithmeticSlices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamic_programming/MinimumPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binary_search/SearchA2DMatrixII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binary_search/SearchA2DMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="50" lean-forward="true" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/History.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="48">
-            <caret line="236" column="12" lean-forward="true" selection-start-line="236" selection-start-column="12" selection-end-line="236" selection-end-column="12" />
+          <first_editor relative-caret-position="598">
+            <caret line="265" column="13" selection-start-line="265" selection-start-column="13" selection-end-line="265" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
