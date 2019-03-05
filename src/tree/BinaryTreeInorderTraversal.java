@@ -58,7 +58,7 @@ public class BinaryTreeInorderTraversal {
         return res;
     }
 
-    public void inHelper(TreeNode root, List<Integer> res) {
+    private void inHelper(TreeNode root, List<Integer> res) {
         if (root == null) return;
         inHelper(root.left, res);
         res.add(root.val);
