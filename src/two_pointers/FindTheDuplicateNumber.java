@@ -1,4 +1,4 @@
-package binary_search;
+package two_pointers;
 
 /* 287. Find the Duplicate Number
 Description:
@@ -22,8 +22,32 @@ There is only one duplicate number in the array, but it could be repeated more t
  */
 
 public class FindTheDuplicateNumber {
-    // Solution1: Binary Search
+    // Solution1: Two Pointers, fast and slow
+    // Like the problem Linked List Cycle II
+    // Time Complexity: O(n), Space Complexity: O(1)
     public int findDuplicate(int[] nums) {
+        if (nums == null || nums.length <= 1) {
+            return -1;
+        }
+        // find the intersection point of the two pointers.
+        int slow = nums[0];
+        int fast = nums[0];
+        do {
+            slow = nums[slow];
+            fast = nums[nums[fast]];
+        } while (slow != fast);
+        // find the "entrance" to the cycle.
+        int entry = nums[0];
+        while (entry != slow) {
+            entry = nums[entry];
+            slow = nums[slow];
+        }
+        return entry;
+    }
+
+    // Solution2: Binary Search
+    // Time Complexity: O(nlogn), Space Complexity: O(1)
+    public int findDuplicate1(int[] nums) {
         int low = 1, high = nums.length - 1;
         while (low < high) {
             int mid = low + (high - low) / 2;
@@ -33,6 +57,8 @@ public class FindTheDuplicateNumber {
                     count++;
                 }
             }
+            // if the count is less or equal to mid,
+            // the duplicate number should in the range [mid + 1, high]
             if (count <= mid) {
                 low = mid + 1;
             } else {
@@ -42,8 +68,8 @@ public class FindTheDuplicateNumber {
         return low;
     }
 
-    // Solution3: If we can  modify the array
-    public int findDuplicate1(int[] nums) {
+    // Solution3: If we can modify the array
+    public int findDuplicate2(int[] nums) {
         for (int i = 0; i < nums.length; ++i) {
             while (nums[i] != i+1) {
                 if (nums[i] == nums[nums[i]-1]) {

@@ -75,8 +75,8 @@ public class ImplementStackUsingQueues {
     // top(): O(n)
     class MyStack1{
         // using two queue. The pop and top are inefficient.
-        private Queue<Integer> q1 = new LinkedList<Integer>();
-        private Queue<Integer> q2 = new LinkedList<Integer>();
+        private Queue<Integer> q1 = new LinkedList<>();
+        private Queue<Integer> q2 = new LinkedList<>();
 
         public void push(int x) {
             if (!q1.isEmpty()) {
@@ -137,8 +137,8 @@ public class ImplementStackUsingQueues {
     // top(): O(1)
     class MyStack2 {
         // using two queue. The push is inefficient.
-        private Queue<Integer> q1 = new LinkedList<Integer>();
-        private Queue<Integer> q2 = new LinkedList<Integer>();
+        private Queue<Integer> q1 = new LinkedList<>();
+        private Queue<Integer> q2 = new LinkedList<>();
 
         public void push(int x) {
             if (q1.isEmpty()) {
