@@ -76,11 +76,7 @@ public class PathSumIII {
         }
         // The prefix stores the sum from the root to the current node in the recursion
         // The map stores <prefix sum, frequency> pairs before getting to the current node.
-        if (!preSum.containsKey(currSum)) {
-            preSum.put(currSum, 1);
-        } else {
-            preSum.put(currSum, preSum.get(currSum)+1);
-        }
+        preSum.put(currSum, preSum.getOrDefault(currSum, 0) + 1);
 
         helper(root.left, currSum, target, preSum);
         helper(root.right, currSum, target, preSum);
