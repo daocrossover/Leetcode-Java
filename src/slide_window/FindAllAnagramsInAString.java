@@ -45,7 +45,7 @@ public class FindAllAnagramsInAString {
             return res;
         }
         // create a HashMap to save the Characters of the target substring.
-        // (K, V) = (Character, Frequence of the Characters)
+        // (K, V) = (Character, Frequency of the Characters)
         Map<Character, Integer> map = new HashMap<>();
         for (char c : p.toCharArray()) {
             map.put(c, map.getOrDefault(c, 0) + 1);

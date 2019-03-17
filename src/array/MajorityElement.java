@@ -1,3 +1,5 @@
+package array;
+
 /* 169. Majority Element
 Description:
 Given an array of size n, find the majority element.

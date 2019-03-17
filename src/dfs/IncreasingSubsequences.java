@@ -31,7 +31,7 @@ public class IncreasingSubsequences {
 
     private void dfs(LinkedList<Integer> list, int index, int[] nums, List<List<Integer>> res) {
         if (list.size() > 1) {
-            res.add(new LinkedList(list));
+            res.add(new LinkedList<>(list));
         }
         // HashSet record what we have used in this particular recursion.
         Set<Integer> used = new HashSet<>();
