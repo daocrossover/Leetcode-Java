@@ -1,4 +1,4 @@
-package two_pointers;
+package slide_window;
 
 /* 3. Longest Substring Without Repeating Characters
 Description:

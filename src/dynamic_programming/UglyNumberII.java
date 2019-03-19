@@ -1,4 +1,4 @@
-package math;
+package dynamic_programming;
 
 /* 264. Ugly Number II
 Description:
@@ -22,12 +22,14 @@ import java.util.HashSet;
 import java.util.PriorityQueue;
 
 /* 思路
-(1) 1x2, 2x2, 2x2, 3x2, 3x2, 4x2, 5x2...
-(2) 1x3, 1x3, 2x3, 2x3, 2x3, 3x3, 3x3...
-(3) 1x5, 1x5, 1x5, 1x5, 2x5, 2x5, 2x5...
+丑数序列：1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, …
+(1) 1×2, 2×2, 3×2, 4×2, 5×2, …
+(2) 1×3, 2×3, 3×3, 4×3, 5×3, …
+(3) 1×5, 2×5, 3×5, 4×5, 5×5, …
 仔细观察上述三个列表，我们可以发现每个子列表都是一个丑陋数分别乘以2,3,5，
 而要求的丑陋数就是从已经生成的序列中取出来的，我们每次都从三个列表中取出当前最小的那个加入序列
  */
+
 public class UglyNumberII {
     // Solution1: Using cache
     // Time Complexity: O(n)
@@ -36,10 +38,10 @@ public class UglyNumberII {
         int index2 = 0, index3 = 0, index5 = 0;
         ugly[0] = 1;
         for (int i = 1; i < n; ++i) {
-            int min = Math.min(2*ugly[index2], Math.min(3*ugly[index3], 5*ugly[index5]));
-            if (min == 2*ugly[index2]) index2++;
-            if (min == 3*ugly[index3]) index3++;
-            if (min == 5*ugly[index5]) index5++;
+            int min = Math.min(2 * ugly[index2], Math.min(3 * ugly[index3], 5 * ugly[index5]));
+            if (min == 2 * ugly[index2]) index2++;
+            if (min == 3 * ugly[index3]) index3++;
+            if (min == 5 * ugly[index5]) index5++;
             ugly[i] = min;
         }
         return ugly[n-1];
