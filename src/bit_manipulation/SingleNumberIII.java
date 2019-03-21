@@ -31,12 +31,15 @@ public class SingleNumberIII {
         for (int num: nums) {
             diff ^= num;
         }
-        // Get its last bit which is '1'
-        diff &= -diff;
+        // find the lowest bit of the diff
+        // let's say 6 (0110), -6 = 1010  0110 & 1010 = 0010
+        int lowBit = diff & -diff;
+        // since this bit from the result is 1, we can be sure that
+        // a & lowBit and b & lowBit have different result
         int[] res = new int[]{0, 0};
         // Pass 2: Partition
         for (int num: nums) {
-            if ((diff & num) == 0) {
+            if ((lowBit & num) == 0) {
                 // the bit is not set
                 res[0] ^= num;
             } else {
