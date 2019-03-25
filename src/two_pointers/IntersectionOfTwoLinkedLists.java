@@ -31,7 +31,7 @@ import common.ListNode;
 public class IntersectionOfTwoLinkedLists {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         // boundary check
-        if(headA == null || headB == null) return null;
+        if (headA == null || headB == null) return null;
         ListNode a = headA;
         ListNode b = headB;
         // if a & b have different len, then we will stop the loop after second iteration

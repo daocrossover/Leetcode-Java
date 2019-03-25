@@ -38,10 +38,17 @@ import common.TreeNode;
 public class LowestCommonAncestorOfABinarySearchTree {
     // Solution1: Iterative Solution
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        while ((root.val - p.val) * (root.val - q.val) > 0) {
-            root = root.val > p.val ? root.left : root.right;
+        TreeNode node = root;
+        while (node != null) {
+            if (p.val > node.val && q.val > node.val) {
+                node = node.right;
+            } else if (p.val < node.val && q.val < node.val) {
+                node = node.left;
+            } else {
+                return node;
+            }
         }
-        return root;
+        return null;
     }
 
     // Solution2: Recursive Solution
