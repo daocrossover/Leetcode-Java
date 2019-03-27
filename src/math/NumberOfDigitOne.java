@@ -26,7 +26,27 @@ Explanation: Digit 1 occurred in the following numbers: 1, 10, 11, 12, 13.
  */
 
 public class NumberOfDigitOne {
+    // Solution1: Iterative
     public int countDigitOne(int n) {
+        int base = 1;
+        int sum = 0;
+        int num = n;
+        while (num != 0) {
+            sum += base * (num / 10);
+            int cur = num % 10;
+            if (cur == 1) {
+                sum += n % base + 1;
+            } else if (cur > 1) {
+                sum += base;
+            }
+            base *= 10;
+            num /= 10;
+        }
+        return sum;
+    }
+
+    // Solution2: Recursive
+    public int countDigitOne1(int n) {
         if (n <= 0) return 0;
         if (n < 10) return 1;
         String num = String.valueOf(n);
@@ -40,7 +60,7 @@ public class NumberOfDigitOne {
             numFirstDigit = Integer.parseInt(rest) + 1;
         }
         int numOtherDigits = (first - '0') * (len - 1) * power10(len - 2);
-        return numFirstDigit + numOtherDigits + countDigitOne(Integer.parseInt(rest));
+        return numFirstDigit + numOtherDigits + countDigitOne1(Integer.parseInt(rest));
     }
 
     private int power10(int n) {
