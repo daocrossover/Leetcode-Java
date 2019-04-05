@@ -37,15 +37,14 @@ import java.util.Map;
 
 public class MostCommonWord {
     public String mostCommonWord(String paragraph, String[] banned) {
-        String[] parts = paragraph.toLowerCase().split("[!?',;. ]+");
+        String[] parts = paragraph.toLowerCase().split("\\W+");
+        // String[] parts = paragraph.toLowerCase().split("[!?',;. ]+");
         Map<String, Integer> map = new HashMap<>();
         for (String part : parts) {
             map.put(part, map.getOrDefault(part, 0) + 1);
         }
         for (String ban : banned) {
-            if (map.containsKey(ban)) {
-                map.remove(ban);
-            }
+            map.remove(ban);
         }
         String res = null;
         for (String key : map.keySet()) {

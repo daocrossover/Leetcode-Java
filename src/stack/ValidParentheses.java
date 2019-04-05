@@ -56,7 +56,7 @@ public class ValidParentheses {
 
     // Solution2: more concise
     public boolean isValid1(String s) {
-        Stack<Character> stack = new Stack<Character>();
+        Stack<Character> stack = new Stack<>();
         for (char c : s.toCharArray()) {
             if (c == '(') {
                 stack.push(')');
