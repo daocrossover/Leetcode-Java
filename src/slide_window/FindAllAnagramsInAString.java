@@ -64,21 +64,23 @@ public class FindAllAnagramsInAString {
                     counter--; // modify the counter according the requirement(different condition).
                 }
             }
-            end++;
             // increase begin pointer to make it invalid/valid again
             while (counter == 0) { // counter condition. different question may have different condition
                 char temp = s.charAt(start);
                 if (map.containsKey(temp)) {
                     map.put(temp, map.get(temp) + 1); // plus or minus one
-                    if(map.get(temp) > 0) counter++; // modify the counter according the requirement(different condition).
+                    if (map.get(temp) > 0) {
+                        counter++; // modify the counter according the requirement(different condition).
+                    }
                 }
                 /* save / update(min/max) the result if find a target*/
                 // result collections or result int value
-                if (end - start == p.length()){
+                if (end - start + 1 == p.length()){
                     res.add(start);
                 }
                 start++;
             }
+            end++;
         }
         return res;
     }

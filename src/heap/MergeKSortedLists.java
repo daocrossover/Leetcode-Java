@@ -60,7 +60,6 @@ public class MergeKSortedLists {
     // then k/4, k/8 and so on.
     // Repeat this procedure until we get the final sorted linked list.
     // Time Complexity: O(N log k)
-    // Space Complexity: O(1)
     private ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(0);
         ListNode cur = dummy;

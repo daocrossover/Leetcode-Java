@@ -18,17 +18,13 @@ Could you solve it with constant space complexity?
 public class ProductOfArrayExceptSelf {
     public int[] productExceptSelf(int[] nums) {
         int[] res = new int[nums.length];
-        int tmp = 1;
         // First, calculate the running product of the part before the current number.
-        for (int i = 0; i < nums.length; ++i) {
-            res[i] = tmp;
-            tmp *= nums[i];
+        for (int i = 0, product = 1; i < nums.length; product *= nums[i], ++i) {
+            res[i] = product;
         }
-        tmp = 1;
         // Second, calculate the running product of the part after the current number
-        for (int i = nums.length - 1; i >= 0; --i) {
-            res[i] *= tmp;
-            tmp *= nums[i];
+        for (int i = nums.length - 1, product = 1; i >= 0; product *= nums[i], --i) {
+            res[i] *= product;
         }
         return res;
     }
