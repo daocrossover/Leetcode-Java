@@ -69,9 +69,10 @@ public class ValidAnagram {
             dict.put(c, dict.getOrDefault(c, 0) + 1);
         }
         for (char c: t.toCharArray()) {
-            int count = dict.getOrDefault(c, 0);
-            if (count == 0) return false;
-            else dict.put(c, count - 1);
+            dict.put(c, dict.getOrDefault(c, 0) - 1);
+            if (dict.get(c) < 0) {
+                return false;
+            }
         }
         return true;
     }

@@ -1,4 +1,4 @@
-package hash_table;
+package design;
 
 /* 380. Insert Delete GetRandom O(1)
 Description:

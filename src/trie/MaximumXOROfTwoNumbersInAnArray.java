@@ -13,14 +13,14 @@ Output: 28
 Explanation: The maximum result is 5 ^ 25 = 28.
  */
 
-class Trie {
-    Trie[] children;
-    public Trie() {
-        children = new Trie[2];
-    }
-}
-
 public class MaximumXOROfTwoNumbersInAnArray {
+    class Trie {
+        Trie[] children;
+        public Trie() {
+            children = new Trie[2];
+        }
+    }
+
     public int findMaximumXOR(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;

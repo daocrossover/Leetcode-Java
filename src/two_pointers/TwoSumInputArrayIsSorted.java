@@ -44,7 +44,7 @@ public class TwoSumInputArrayIsSorted {
         if (numbers == null || numbers.length == 0) {
             return new int[0];
         }
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < numbers.length; ++i) {
             if (map.containsKey(numbers[i])) {
                 return new int[]{map.get(numbers[i]), i+1};

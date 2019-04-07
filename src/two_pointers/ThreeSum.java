@@ -18,14 +18,17 @@ A solution set is:
 ]
  */
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 
 public class ThreeSum {
     public List<List<Integer>> threeSum(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (nums == null || nums.length < 3) {
+            return res;
+        }
         Arrays.sort(nums); // sort the array
-        List<List<Integer>> res = new LinkedList<>();
         for (int i = 0; i < nums.length - 2; ++i) {
             if (nums[i] > 0) break; // if the first num > 0, stop searching
             if (i > 0 && nums[i] == nums[i-1]) continue; // skip duplicates

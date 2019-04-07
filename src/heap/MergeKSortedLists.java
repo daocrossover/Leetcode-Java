@@ -23,7 +23,7 @@ public class MergeKSortedLists {
     // Solution1: Min Heap
     // Time Complexity: O(N log k) where k is the number of linked lists.
     // The comparison cost is O(log k) for every pop and insertion to priority queue.
-    // But finding the node with the smallest value just costs O(1)time.
+    // But finding the node with the smallest value just costs O(1) time.
     // There are N nodes in the final linked list.
     // Space Complexity:
     // 1. O(n) creating a new linked list costs O(n) space.

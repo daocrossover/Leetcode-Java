@@ -19,7 +19,6 @@ You may assume k is always valid, 1 ≤ k ≤ array's length.
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
-import java.util.Queue;
 import java.util.Random;
 import java.util.Arrays;
 
@@ -30,7 +29,7 @@ public class KthLargestElementInAnArray {
     // Time Complexity: O(n log k)
     // Space Complexity: O(k)
     public int findKthLargest(int[] nums, int k) {
-        Queue<Integer> pq = new PriorityQueue<>();
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
         for (int i = 0; i < nums.length; ++i) {
             pq.offer(nums[i]);
             if (pq.size() > k) {
@@ -46,13 +45,7 @@ public class KthLargestElementInAnArray {
     // Time Complexity: O(k log n)
     // Space Complexity: O(n)
     public int findKthLargest1(int[] nums, int k) {
-        PriorityQueue<Integer> pq = new PriorityQueue<Integer>(k, new Comparator<Integer>() {
-            @Override
-            public int compare(Integer i, Integer j) {
-                return j - i;
-            }
-        });
-
+        PriorityQueue<Integer> pq = new PriorityQueue<>(k, (a, b) -> b - a);
         for (int num: nums) {
             pq.offer(num);
         }
