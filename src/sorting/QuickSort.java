@@ -2,7 +2,7 @@ package sorting;
 
 public class QuickSort {
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 4, 8, 2, 55, 3, 4, 8, 6, 4, 0, 11, 34, 90, 23, 54, 77, 9, 2, 9, 4, 10};
+        int[] arr = new int[]{17, 53, 71, 36, 46, 41, 23, 12};
         sort(arr);
         String out = "";
         for (int digit : arr) {
@@ -24,6 +24,7 @@ public class QuickSort {
     }
 
     private static int partition(int[] nums, int lo, int hi) {
+        System.out.println(lo + " " + hi);
         int pivot = nums[lo];
         while (lo < hi) {
             while (lo < hi && nums[hi] >= pivot) --hi;
@@ -32,6 +33,10 @@ public class QuickSort {
             nums[hi] = nums[lo];
         }
         nums[lo] = pivot;
+        for (int i = 0; i < nums.length; ++i) {
+            System.out.print(nums[i] + " ");
+        }
+        System.out.println();
         return lo;
     }
 }

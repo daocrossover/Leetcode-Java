@@ -1,4 +1,4 @@
-package hash_table;
+package two_pointers;
 
 /* 202. Happy Number
 Description:
@@ -20,12 +20,13 @@ Explanation:
 1^2 + 0^2 + 0^2 = 1
 
 Solution:
-Using HashSet to judge the loop cycle
+Using HashSet or fast/slow pointers to judge the loop cycle
  */
 
 import java.util.HashSet;
 
 public class HappyNumber {
+    // Solution1: Hashset
     public boolean isHappy(int n) {
         if (n < 1) {
             return false;
@@ -42,5 +43,30 @@ public class HappyNumber {
             n = m;
         }
         return n == 1;
+    }
+
+    // Solution2: Fast and slow pointers
+    public boolean isHappy1(int n) {
+        if (n < 1) {
+            return false;
+        }
+        int slow = n, fast = n;
+        while (fast != 1 && nextNumber(fast) != 1) {
+            slow = nextNumber(slow);
+            fast = nextNumber(nextNumber(fast));
+            if (slow == fast) break;
+        }
+        return fast == 1 || nextNumber(fast) == 1;
+    }
+
+    int nextNumber(int n) {
+        int sum = 0;
+        int digit = 0;
+        while (n > 0) {
+            digit = n % 10;
+            sum += digit * digit;
+            n /= 10;
+        }
+        return sum;
     }
 }
