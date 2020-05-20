@@ -17,7 +17,8 @@ Minimize the total number of operations.
 public class MoveZeroes {
     // Solution1: Using Two Pointers
     public void moveZeroes(int[] nums) {
-        for (int i = 0, j = 0; i < nums.length; ++i) {
+        int j = 0; // the index of last non-zero element
+        for (int i = 0; i < nums.length; ++i) {
             if (nums[i] != 0) {
                 int tmp = nums[i];
                 nums[i] = nums[j];

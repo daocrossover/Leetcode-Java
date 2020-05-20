@@ -53,4 +53,37 @@ public class MaximumSubarray {
         }
         return curMax;
     }
+
+    // Solution3: Divide and Conquer
+    // Split the array to two parts, the maxSubArray will exist in
+    // 1. maxSubArray in left part
+    // 2. maxSubArray in right part
+    // 3. maxSubArray starting from right edge in left part + maxSubArray starting from left edge in right part
+    public int maxSubArray2(int[] nums) {
+        return maxSum(nums, 0, nums.length - 1);
+    }
+
+    private int maxSum(int[] nums, int l, int h) {
+        if (l == h) return nums[l];
+        int m = l + (h - l) / 2;
+        int left = maxSum(nums, l, m);
+        int right = maxSum(nums, m + 1, h);
+        int combine = findMax(nums, l, m, h);
+        return Math.max(Math.max(left, right), combine);
+    }
+
+    private int findMax(int[] nums, int l, int m, int h) {
+        int leftMax = Integer.MIN_VALUE, rightMax = Integer.MIN_VALUE;
+        int sum = 0;
+        for (int i = m; i >= l; --i) {
+            sum += nums[i];
+            leftMax = Math.max(leftMax, sum);
+        }
+        sum = 0;
+        for (int i = m + 1; i <= h; ++i) {
+            sum += nums[i];
+            rightMax = Math.max(rightMax, sum);
+        }
+        return leftMax + rightMax;
+    }
 }
