@@ -69,16 +69,16 @@ public class DesignMinStack {
 
         public void push(int x) {
             dataStack.push(x);
-            if (minStack.isEmpty() || x < minStack.peek()) {
+            if (minStack.isEmpty() || x <= minStack.peek()) {
                 minStack.push(x);
-            } else {
-                minStack.push(minStack.peek());
             }
         }
 
         public void pop() {
+            if (minStack.peek().equals(dataStack.peek())) {
+                minStack.pop();
+            }
             dataStack.pop();
-            minStack.pop();
         }
 
         public int top() {
