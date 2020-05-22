@@ -1,4 +1,4 @@
-package hash_table;
+package hash_table.presum;
 
 /* 560. Subarray Sum Equals K
 Description:

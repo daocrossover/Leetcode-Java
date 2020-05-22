@@ -1,4 +1,4 @@
-package hash_table;
+package hash_table.presum;
 
 /* 525. Contiguous Array
 Description:
