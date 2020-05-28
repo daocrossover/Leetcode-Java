@@ -48,7 +48,7 @@ public class MajorityElement {
     // HashMap Solution:
     // Time complexity: O(n), Space complexity: O(n)
     public int majorityElement3(int[] nums) {
-        HashMap<Integer, Integer> myMap = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> myMap = new HashMap<>();
         int res = 0;
         for (int num : nums) {
             if (!myMap.containsKey(num)) {
