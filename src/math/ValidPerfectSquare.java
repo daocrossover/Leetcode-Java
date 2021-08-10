@@ -35,6 +35,8 @@ public class ValidPerfectSquare {
     }
 
     // Solution2: A square number is 1+3+5+7+...
+    // an = 2n - 1
+    // Sum = (1 + 2n - 1) * n / 2 = n^2
     // Time Complexity: O(sqrt(n))
     public boolean isPerfectSquare1(int num) {
         int i = 1;
